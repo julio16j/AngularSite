@@ -25,18 +25,17 @@ nav ul#menu-desktop li a {
   text-decoration: none;
   color:#FFF;
   display: inline-block;
-  margin-right: -3px;
+  margin-right: 5px;
   font-family: Roboto, sans-serif;
   font-size: 80%;
   letter-spacing: 0.60;
 }
 nav ul#menu-desktop li a:hover{
   background-color: rgba(150,0,0,0.5);
-  border-radius: 15%;
+  
 }
 nav ul#menu-desktop li a.btn{
   background-color: rgb(120,0,0);
-  border-radius: 15%;
 }
 div#static{
   height: 100px;
