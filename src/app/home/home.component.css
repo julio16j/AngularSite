@@ -1,5 +1,4 @@
 section#Main{
-    height: 700px;
     width: 90%;
     margin: 80px auto;
     position: relative;
@@ -45,7 +44,7 @@ div#background2 h1,div#background3 h1 {
   margin: 0 auto;
 }
 div#background2 h1:hover, div#background3 h1:hover{
-  background-color: rgba(150,0,0,0.4);
+  border: solid 2px #111111;
 }
 div#background2 img#i1, div#background3 img#i1{
   display: inline-block;
@@ -56,6 +55,9 @@ div#background2 img#i2, div#background3 img#i2{
   display: inline-block;
   height: 100%;
   width: 30%;
+}
+div#background2 img#i2{
+  width: 35%;
 }
 div#background2 img#i2 ,div#background3 img#i1{
   transform: rotateY(180deg);
